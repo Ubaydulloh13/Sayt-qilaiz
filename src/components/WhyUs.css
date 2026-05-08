@@ -1,0 +1,77 @@
+.why-us {
+  padding: 4rem 2rem;
+  background: white;
+}
+
+.why-us .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-us h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  color: #333;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.reason-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s;
+  border-left: 4px solid #2ecc71;
+}
+
+.reason-card:hover {
+  background: #f0f0f0;
+  transform: translateY(-5px);
+}
+
+.reason-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.reason-card h3 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-weight: 700;
+}
+
+.reason-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .why-us {
+    padding: 2rem 1.5rem;
+  }
+
+  .why-us h2 {
+    font-size: 1.8rem;
+  }
+
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .reason-card {
+    padding: 1.5rem;
+  }
+
+  .reason-icon {
+    font-size: 2.5rem;
+  }
+}

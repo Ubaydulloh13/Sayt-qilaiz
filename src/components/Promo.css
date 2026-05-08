@@ -1,0 +1,58 @@
+.promo {
+  background: #fff3cd;
+  padding: 2rem;
+}
+
+.promo-banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(255, 152, 0, 0.3);
+}
+
+.promo-banner h3 {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.promo-banner p {
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem 0;
+  opacity: 0.95;
+}
+
+.btn-apply {
+  padding: 0.8rem 2rem;
+  background: white;
+  color: #ff9800;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-apply:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .promo-banner {
+    padding: 1.5rem;
+  }
+
+  .promo-banner h3 {
+    font-size: 1.3rem;
+  }
+
+  .promo-banner p {
+    font-size: 1rem;
+  }
+}
